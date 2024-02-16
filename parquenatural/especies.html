@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>parque natural</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript">
+        var nutria=new Image();
+        nutria.src="imagenes/nutria.jpg"
+        var buitre=new Image();
+        buitre.src="imagenes/buitre_leonado.jpg"
+        var gineta=new Image();
+        gineta.src="imagenes/gineta.jpg"
+
+    </script>
+</head>
+<body>
+    <h1>Parque Nacional<span>Sierra Bicuerca</span></h1>
+    
+    <ul id="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="especies.html">Especies</a></li>
+        <li><a href="reservas.html">reservas</a></li>
+        <li><a href="#">galeria</a></li>
+    </ul>
+  <div class="contenido">
+    
+    <h2> Especies del parque</h2>
+    <p>Estos son algunos de los habitantes del parque</p>
+
+    <img src="imagenes/nutria.jpg" width="290"  height="350" class="animal"id="animal" alt="Especies del parque">
+    <div onmouseover="document.images['animal'].src=nutria.src;">
+    <h3>nutria</h3>
+    <p>La nutria europea o palertica (lutra lutra) es un mamifero 
+        carnivoro de habitat acuatico. Se alimenta de peces, 
+        ranas y pequeñas presas de caza en el rio. Cerca de sus 
+        lugares de conijo, podremos ver toboganes que crean para 
+        llegar rapidamente a el agua </p>
+    </div>
+
+
+    <div onmouseover="document.images['animal'].src=buitre.src;">
+        <h3>Buitre leonado</h3>
+        <p>El buitre leonado(Gyps Fulvus) es un ave 
+            capaz, una de las mayores que puede encontrarse en la peninsula
+            iberica. Su alimento principal es carroña, que localiza con su aguda 
+            vista
+        </p>
+    </div>
+
+    <div onmouseover="document.images['animal'].src=gineta.src;">
+        <h3>Gineta</h3>
+        <p>La Guineta (Genetta Genetta) es una 
+            especie de mamifero carnivoro. Son grandes trepadoras, 
+            muy agiles y grandes cazadoras de pequeños animales. Aunque tambien se alimenatn de frutas del bosque que se pueden encontrar en el parque.
+        </p>
+    </div>
+    </div>
+
+</body>
+</html>
